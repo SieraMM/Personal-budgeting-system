@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Expense Tracker</title>
+</head>
+
+<body>
+    <div class="top">
+    <div> Expense Tracker</div>
+
+    <!-- This is the tab Navigation -->
+    <nav>
+        <div class="monthlyMarker"> Jan</div>
+        <div class="monthlyMarker"> Feb</div>
+        <div class="monthlyMarker"> March</div>
+        <div class="monthlyMarker"> April</div>
+        <div class="monthlyMarker"> May</div>
+        <div class="monthlyMarker"> June</div>
+        <div class="monthlyMarker"> July</div>
+        <div class="monthlyMarker"> August</div>
+        <div class="monthlyMarker"> Sept</div>
+        <div class="monthlyMarker"> Oct</div>
+        <div class="monthlyMarker"> Nov</div>
+        <div class="monthlyMarker"> Dec</div>
+    </nav>
+</div>
+    <!-- `Current Month` stays the same while the actual month changes -->
+    <div class="currentMonth"> Current Month: October </div>
+
+    <!-- The data table for daily expenses. Can type in box by clicking on it or pressing tab. Dropdown Categories menu?
+    Cartegories will feed into an array which will be connected to the pie chart ??? NOt exactllu sure how that would owrk yet -->
+    <div class="dailyExpenseTracker">
+
+        <table class="detTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Price</th>
+                    <th>Comment</th>
+                    <th> Category</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td>
+                    <!-- this button will add a new row. Might replace `Add` with `+` -->
+                    <button> Add</button>
+                </td>
+            </tfoot>
+        </table>
+    </div>
+    <!-- This key might be in the footer of the table or someother way connected -->
+    <div class=" key">
+        <div class="proposedBox"></div>
+        <div> Proposed</div>
+        <div class="actualBox"></div>
+        <div> Actual</div>
+    </div>
+    <!-- 'parentBox' because this will need to be a flex box with categoriesData and categoriesBarGraph being its children -->
+
+    <div class="showdowGreen">
+        <div class="parentBox">
+            <div class="catergoriesData">
+                <table class="categoryDataTable">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Proposed</th>
+                            <th>Actual</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td>
+                            <button> Add</button>
+                        </td>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="categoriesBarGraph">
+                <!-- the proposed/actual bar graph will go here -->
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- some type of footer maybe -->
+    </footer>
+</body>
+<script>
+
+</script>
+
+</html>

@@ -1,0 +1,37 @@
+body{
+    background-color: #F2EED2;
+}
+
+table, th, td{
+    border: 1px soild #621708;
+    background-color: #D06740;
+
+}
+.top{
+    background-color: #00342C;
+    color: #FFFFFF;
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   
+ 
+}
+.monthlyMarker{
+    background-color: #621708;
+    color: #FFFFFF;
+  
+}
+.detTable{
+    width: 100%;
+   
+}
+.categoryDataTable{
+    width: 50%;
+   
+}
+.key{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
